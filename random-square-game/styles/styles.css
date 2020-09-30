@@ -1,0 +1,78 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    background-color: rgba(19, 17, 17, 0.699);
+}
+#pregame {
+    background-color: rgba(19, 17, 17, 0.699);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inner-pregame {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+}
+
+#inner-pregame h2 {
+    font-size: 35px;
+    text-align: center;
+    color: orangered;
+}
+
+#inner-pregame p {
+    text-indent: 20px;
+    font-size: 20px;
+    width: 400px;
+    color: orangered;
+}
+
+
+#start-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 80px;
+    border-radius: 10px;
+    font-size: 35px;
+    background-color: orangered;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#playground {
+    display: none;
+    background-color: orangered;
+    height: 620px;
+    width: 650px;
+    margin: auto;
+}
+
+#cube {
+    background-color: rgb(218, 0, 0);
+    height: 40px;
+    width: 40px;
+    margin: 10px auto;
+}
+
+#timer, #score {
+    text-align: center;
+}
+
+#score {
+    margin-top: 5px;
+}
